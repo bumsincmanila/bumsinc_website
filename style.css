@@ -164,7 +164,7 @@
 	# Buttons
 	================================================== */
 	.btn {
-		font-family: 'Open Sans Variable';
+		font-family: 'brandon-grotesque', 'Open Sans';
 		font-weight: 400;
 		font-size: 13px;
 		text-transform: uppercase;
@@ -255,6 +255,7 @@
 		margin-bottom: 16px;
 		line-height: 1.428571429;
 		color: #5a5a5a;
+		vertical-align: middle;
 		background-color: #f4f4f4;
 		background-image: none;
 		border: none;
@@ -713,10 +714,10 @@
 
 	/** about **/
 	#about-us {
-		background: url(demo/bg/about-bg.png) ;
-		background-position: top no-repeat; 
+		background: url(demo/bg/about-bg.png) 
+		background-position: top; no-repeat 
 		background-repeat: no-repeat;
-		color: #fff;
+		#fff;
 	}
 	#about-us .container {
 		padding-top: 30px;
@@ -943,6 +944,7 @@ background:rgba(0, 0, 0, 0.4);
 		overflow-x: hidden;
 		overflow-y: scroll;
 		outline: none !important;
+  		-webkit-backface-visibility: hidden;
 	}
 	.tsp-container {
 	    -webkit-box-sizing: border-box;
@@ -1604,7 +1606,7 @@ background:rgba(0, 0, 0, 0.4);
 	/** categories widget */
 	.widget ul li,
 	.tagcloud a {
-		font-family: Arial, sans-serif;
+		font-family: 'brandon-grotesque', Arial, sans-serif;
 		font-weight: 400;
 		font-size: 13px;
 		text-transform: uppercase;

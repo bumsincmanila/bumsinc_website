@@ -1,0 +1,636 @@
+# Webalizer V2.23-08 Incremental Data - 02/03/2016 01:15:47
+2016 2 3 1 15 47
+937 878 80 101 14 20 167970876 132 64 0
+2 1 102 1 3
+416 386 72581102 35 66 22
+516 489 95123667 51 63 40
+5 3 266107 2 3 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+99 96 19814870 5
+107 106 20615470 4
+63 63 18299468 2
+24 23 1949418 22
+13 10 3244604 3
+22 18 2636790 10
+5 5 124754 1
+49 47 12985344 5
+8 3 192761 5
+6 5 1433382 3
+9 7 462685 4
+21 19 2714874 18
+3 3 114636 1
+7 3 99410 4
+5 3 418638 2
+4 3 98072 2
+57 42 1374508 20
+9 8 476085 2
+3 3 1418580 1
+2 2 90033 1
+95 92 19603481 3
+135 133 21744049 8
+100 95 21537836 5
+91 89 16521128 1
+0
+0
+0
+878
+0
+0
+0
+0
+0
+2
+0
+0
+4
+0
+1
+0
+0
+0
+0
+0
+0
+50
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/assets/js/vinto.js
+0 12 0 276384 0 0
+/assets/img/bg/homepage-bg6.jpg
+1 6 0 738636 0 0
+/services/events-management.jpg
+1 8 0 37848 0 0
+/client-says/rene-napenas.jpg
+1 7 0 63329 0 0
+/portfolio-item/PRRC.html
+0 1 0 9407 0 0
+/assets/js/plugins/jquery.grafixesTabs.js
+0 11 0 22550 0 0
+/assets/img/ajax_loader.gif
+1 5 0 23080 0 0
+/assets/js/plugins/jquery.easing.js
+0 11 0 61215 0 0
+/banners/homepage-bg5.jpg
+1 9 0 2294721 0 0
+/our-great-clients/ClientLogo_2.png
+1 9 0 41076 0 0
+/style.css
+0 14 0 526540 0 0
+/assets/js/plugins/jquery.tweet.min.js
+0 12 0 101388 0 0
+/our-great-clients/ClientLogo_15.png
+1 7 0 23751 0 0
+/our-great-clients/ClientLogo_5.png
+1 7 0 45528 0 0
+/assets/img/texture-dark.png
+1 7 0 19782 0 0
+/banners/homepage-bg1.jpg
+1 9 0 1767924 0 0
+/banners/homepage-bg7.jpg
+1 9 0 5334579 0 0
+/services/event-coverage.jpg
+1 7 0 21504 0 0
+/assets/img/bottom-arrow-white.png
+1 6 0 15774 0 0
+/banners/homepage-bg2.jpg
+1 10 0 2407220 0 0
+/interested-in-our-services/interested-in-our-services-banner.jpg
+1 6 0 4859994 0 0
+/about/philosophy.jpg
+1 6 0 24156 0 0
+/banners/homepage-bg8.jpg
+1 9 0 5106159 0 0
+/demo/bg/about-bg.png
+1 7 0 98259 0 0
+/our-great-clients/ClientLogo_12.png
+1 7 0 52143 0 0
+/assets/css/owl-carousel/owl.carousel.css
+0 12 0 73104 0 0
+/our-great-clients/ClientLogo_4.png
+1 7 0 27776 0 0
+/assets/js/plugins/jquery.parallax.js
+0 8 0 14736 0 0
+/client-says/roland-aquino.jpg
+1 6 0 322242 0 0
+/banners/homepage-bg6.jpg
+1 9 0 6632793 0 0
+/assets/js/plugins/imagesloaded.js
+0 9 0 60768 0 0
+/assets/js/plugins/jquery.appear.js
+0 10 0 24180 0 0
+/our-great-clients/ClientLogo_6.png
+1 7 0 93177 0 0
+/our-great-clients/ClientLogo_1.png
+1 7 0 20769 0 0
+/our-great-clients/ClientLogo_11.png
+1 7 0 26432 0 0
+/assets/img/diamondslider/direction_nav.png
+1 5 0 6030 0 0
+/banners/homepage-bg9.jpg
+1 9 0 5658795 0 0
+/assets/js/plugins/jquery.scripts.js
+0 12 0 133620 0 0
+/banners/homepage-bg4.jpg
+1 8 0 2350952 0 0
+/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff
+0 7 0 311024 0 0
+/banners/homepage-bg12.jpg
+1 8 0 10594376 0 0
+/our-great-clients/our-great-clients.jpg
+1 8 0 6231591 0 0
+/demo/bg/services-bg.png
+1 7 0 129577 0 0
+/about/objective.jpg
+1 7 0 32956 0 0
+/portfolio-item/Real-Estate.html
+0 1 0 9488 0 0
+/social/instagram.png
+1 8 0 27304 0 0
+/services/Services-BG.jpg
+1 6 0 208596 0 0
+/services/video-production.jpg
+1 6 0 23412 0 0
+/banners/homepage-bg18.jpg
+1 7 0 8319906 0 0
+/assets/css/animate/animate.css
+0 13 0 744198 0 0
+/client-says/ian-holzberger.jpg
+1 9 0 77517 0 0
+/social/google+.png
+1 6 0 19140 0 0
+/social/facebook.png
+1 7 0 21567 0 0
+/services/other-services-1.jpg
+1 6 0 26094 0 0
+/demo/logo.jpg
+1 1 0 5402 0 0
+/banners/homepage-bg21.jpg
+1 7 0 10822609 0 0
+/assets/js/modernizr-2.7.1.min.js
+0 12 0 186840 0 0
+/banners/homepage-bg19.jpg
+1 7 0 7553329 0 0
+/social/youtube.png
+1 8 0 24904 0 0
+/our-great-clients/ClientLogo_9.png
+1 7 0 38017 0 0
+/demo/bg/portfolio-bg.png
+1 7 0 95081 0 0
+/assets/css/bootstrap.css
+0 16 0 1441664 0 0
+/banners/homepage-bg3.jpg
+1 9 0 3315969 0 0
+/banners/homepage-bg13.jpg
+1 9 0 12579345 0 0
+/client-says/ace-zosimo.jpg
+1 6 0 302514 0 0
+/assets/js/plugins/owl.carousel.min.js
+0 12 0 180720 0 0
+/client-says/emelyn-libunao.jpg
+1 6 0 252360 0 0
+/our-great-clients/ClientLogo_3.png
+1 6 0 37986 0 0
+/assets/js/jquery-1.11.0.min.js
+0 12 0 1156572 0 0
+/banners/homepage-bg14.jpg
+1 9 0 10133118 0 0
+/demo/bg/team-bg.png
+1 6 0 78444 0 0
+/assets/img/big-logo-flat.png
+1 8 0 191696 0 0
+/portfolio-item/anjumay.html
+0 1 0 9385 0 0
+/about/mission.jpg
+1 8 0 34832 0 0
+/our-great-clients/ClientLogo_10.png
+1 6 0 34968 0 0
+/our-great-clients/ClientLogo_13.png
+1 7 0 31549 0 0
+/banners/homepage-bg11.jpg
+1 8 0 3868864 0 0
+/portfolio-item/photo-7.html
+0 1 0 9344 0 0
+/assets/img/logo.png
+1 8 0 30272 0 0
+/our-great-clients/ClientLogo_7.png
+1 6 0 23562 0 0
+/social/vimeo.png
+1 7 0 21798 0 0
+/our-great-clients/ClientLogo_14.png
+1 6 0 15846 0 0
+/
+0 94 0 8201763 53 8
+/assets/js/plugins/fluidvids.js
+0 11 0 20317 0 0
+/banners/homepage-bg16.jpg
+1 9 0 10453842 0 0
+/our-great-clients/ClientLogo_8.png
+1 8 0 42992 0 0
+/assets/js/bootstrap.min.js
+0 12 0 268500 0 0
+/messagesent.html
+0 7 0 605724 3 0
+/assets/js/contact-form.js
+0 12 0 27552 0 0
+/about/vision.jpg
+1 7 0 23996 0 0
+/assets/fonts/font-awesome/css/font-awesome.min.css
+0 12 0 213360 0 0
+/assets/img/diamondslider/direction_nav_white.png
+1 7 0 8694 0 0
+/social/twitter.png
+1 7 0 22309 0 0
+/demo/bg/home-bg.png
+1 8 0 535776 0 0
+/banners/homepage-bg15.jpg
+1 9 0 10489860 0 0
+/banners/homepage-bg17.jpg
+1 9 0 8700237 0 0
+/assets/js/plugins/jquery.touchSwipe.min.js
+0 12 0 129624 0 0
+/portfolio-item/Asia-travel.html
+0 1 0 9496 0 0
+/assets/js/plugins/jquery.diamondslider.min.js
+0 11 0 56353 0 0
+/banners/homepage-bg10.jpg
+1 8 0 1435312 0 0
+/banners/homepage-bg20.jpg
+1 7 0 8018052 0 0
+# End Of Table - urls
+# -sites- (monthly)
+184.154.36.164
+0 27 20 674779 1 1454344735
+-
+207.241.237.223
+0 14 13 4238187 0 0
+-
+191.232.136.147
+0 1 1 4354 0 0
+-
+100.43.81.151
+0 1 0 767 0 0
+-
+66.249.69.116
+0 1 1 6092 0 0
+-
+207.241.237.228
+0 4 3 1136537 0 0
+-
+40.77.167.85
+0 3 3 264573 1 1454325275
+/
+157.55.39.150
+0 3 2 1168809 0 0
+-
+112.208.18.67
+0 94 94 19549969 1 1454289245
+/
+66.249.75.91
+0 3 3 113976 0 0
+-
+207.241.237.229
+0 6 4 107078 0 0
+-
+157.55.39.122
+0 3 3 264573 1 1454327415
+/
+100.43.85.6
+0 1 1 88191 1 1454449082
+/
+188.143.232.41
+0 9 7 614419 1 1454305594
+/
+66.249.75.83
+0 2 1 38377 0 0
+-
+54.153.2.240
+0 3 0 0 3 1454418928
+-
+51.255.65.20
+0 1 1 88191 1 1454413752
+/
+66.249.69.89
+0 9 6 273843 2 1454414698
+/
+66.249.69.108
+0 4 3 185727 0 0
+-
+66.249.75.99
+0 1 0 767 0 0
+-
+207.241.237.226
+0 6 5 113023 0 0
+-
+191.232.136.163
+0 2 1 9380 0 0
+-
+167.114.172.225
+0 11 10 882677 1 1454413653
+/
+122.52.209.47
+0 97 97 19574122 1 1454447431
+/portfolio-item/photo-7.html
+207.241.237.227
+0 9 8 1229285 0 0
+-
+66.249.69.73
+0 16 16 596211 3 1454451667
+/
+157.55.39.199
+0 2 2 631827 0 0
+-
+40.77.167.21
+0 2 2 789167 0 0
+-
+184.154.139.22
+0 27 20 674779 1 1454430651
+-
+146.120.166.196
+0 1 0 767 1 1454331800
+-
+51.255.65.22
+0 1 1 88191 1 1454323722
+/
+141.8.143.175
+0 1 1 88191 1 1454449075
+/
+51.255.65.50
+0 1 1 88191 1 1454409632
+/
+100.43.81.155
+0 1 1 88191 1 1454449072
+/
+107.21.1.8
+0 4 2 177916 2 1454408663
+/
+66.249.75.173
+0 2 2 48412 0 0
+-
+66.249.69.81
+0 6 6 215320 1 1454439568
+/
+121.1.26.14
+0 43 43 12351818 1 1454398913
+/
+180.76.15.149
+0 1 1 88191 1 1454290659
+/
+66.249.75.182
+0 2 2 107884 0 0
+-
+77.75.78.162
+0 2 1 737744 0 0
+-
+51.255.65.29
+0 1 1 88191 1 1454373521
+/
+51.255.65.96
+0 1 1 86532 1 1454396066
+/messagesent.html
+191.232.136.0
+0 1 1 88191 1 1454405662
+/
+42.120.160.115
+0 2 2 23872 0 0
+-
+207.241.237.224
+0 4 4 13015 0 0
+-
+40.77.167.32
+0 4 2 94289 1 1454450771
+/
+51.255.65.69
+0 1 1 88191 1 1454408879
+/
+51.255.65.71
+0 1 1 88191 1 1454419647
+/
+104.207.150.177
+0 1 1 88191 1 1454363537
+/
+62.212.73.49
+0 1 1 88191 1 1454311757
+/
+51.255.65.87
+0 1 1 88191 1 1454327749
+/
+203.215.118.217
+0 94 93 19548763 1 1454372157
+/
+51.255.65.13
+0 1 1 88191 1 1454462147
+/
+54.153.5.53
+0 3 0 0 1 1454444498
+-
+52.34.49.194
+0 2 0 1534 1 1454402211
+-
+42.156.137.115
+0 1 1 90104 0 0
+-
+222.127.206.157
+0 84 84 16249926 1 1454457562
+/
+192.99.107.201
+0 2 0 512 1 1454311121
+/
+157.55.39.244
+0 3 3 626838 0 0
+-
+51.255.65.70
+0 2 1 88958 2 1454442165
+/
+157.55.39.42
+0 7 6 446453 4 1454434363
+/
+66.249.75.191
+0 4 3 152296 1 1454390972
+/
+112.208.5.235
+0 90 90 19424419 1 1454357435
+/
+40.77.167.31
+0 2 2 176382 2 1454433332
+/
+191.232.136.173
+0 1 1 88191 1 1454389090
+/
+203.177.190.156
+0 60 60 18206864 1 1454378666
+/
+191.232.136.128
+0 1 1 88191 1 1454315536
+/
+146.120.166.158
+0 1 0 767 1 1454331800
+-
+103.14.60.175
+0 95 95 18963936 1 1454364390
+/portfolio-item/Real-Estate.html
+123.126.113.191
+0 4 2 177916 1 1454457894
+/
+157.55.39.41
+0 3 3 2080678 0 0
+-
+157.55.39.54
+0 3 3 976035 0 0
+-
+51.255.65.64
+0 1 1 86532 1 1454389085
+/messagesent.html
+104.131.57.71
+0 22 21 1852778 1 1454296987
+/
+51.255.65.65
+0 1 1 86532 1 1454380575
+/messagesent.html
+141.8.143.149
+0 1 0 767 0 0
+-
+66.249.85.227
+0 1 1 88191 1 1454446356
+/
+66.249.69.124
+0 2 2 105971 1 1454338411
+/
+42.120.161.115
+0 1 1 37610 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+51.255.65.13
+0 1 1 88191 1 1454462147
+/
+123.126.113.191
+0 4 2 177916 1 1454457894
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://www.google.com.ph/
+1 6
+http://bumsinc.net/index.html
+1 18
+http://bumsinc.net
+1 20
+http://www.google.com/url
+1 12
+http://bumsinc.net/style.css
+1 39
+- (Direct Request)
+0 180
+http://bumsinc.net/
+1 470
+http://bumsinc.net/assets/fonts/font-awesome/css/font-awesome.min.css
+1 5
+Google
+2 19
+http://www.bumsinc.net/
+1 163
+http://www.bumsinc.net/assets/fonts/font-awesome/css/font-awesome.min.css
+1 1
+http://bumsinc.net/favicon.ico
+1 2
+https://www.google.com
+1 1
+http://www.equipmentrental.bumsinc.net/
+1 2
+http://www.bumsinc.net/style.css
+1 18
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 685
+MSIE 10.0
+0 2
+archive.o
+0 43
+DuckDuckGo-Favicons-Bot/1.0
+0 4
+Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+0 4
+Netscape 6 compatible
+2 685
+SiteLockSpider [en] (WinNT; I ;Nav)
+0 42
+meanpathbot/1.0
+0 2
+Googlebot-Image/1.0
+0 2
+G
+0 19
+Internet Explorer 6
+2 9
+Baiduspider/2.0
+0 1
+YisouSpider
+0 4
+SeznamBot/3.2
+0 2
+MSIE 9.0
+0 13
+Googlebot/2.1
+0 29
+MSIE 6.0
+0 9
+python-requests/2.7.0 CPython/2.7.6 Linux/3.13.0-48-generic
+0 6
+Lipperhey-Kaus-Australis/5.0
+0 11
+YandexBot/3.0
+0 5
+AhrefsBot/5.0
+0 13
+bingbot/2.0
+0 41
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

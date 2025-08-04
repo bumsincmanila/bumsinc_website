@@ -1,0 +1,183 @@
+20150906T163359: www.bumsinc.net/contact-form.php
+2015-09-06 16:33:59 1ZYgdT-0001Ki-9P Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-06 16:33:59 1ZYgdT-0001Ki-9P Failed to create spool file /var/spool/exim4/input//1ZYgdT-0001Ki-9P-D: Permission denied
+2015-09-06 16:33:59 1ZYgdT-0001Ki-9P Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150910T045851: bumsinc.net/contact-form.php
+2015-09-10 04:58:51 1ZZxgx-0000ry-Vq Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-10 04:58:51 1ZZxgx-0000ry-Vq Failed to create spool file /var/spool/exim4/input//1ZZxgx-0000ry-Vq-D: Permission denied
+2015-09-10 04:58:51 1ZZxgx-0000ry-Vq Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150913T163443: www.bumsinc.net/contact-form.php
+2015-09-13 16:34:43 1ZbDz1-00029L-GU Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-13 16:34:43 1ZbDz1-00029L-GU Failed to create spool file /var/spool/exim4/input//1ZbDz1-00029L-GU-D: Permission denied
+2015-09-13 16:34:43 1ZbDz1-00029L-GU Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150919T144009: www.bumsinc.net/contact-form.php
+2015-09-19 14:40:09 1ZdN3R-000BZR-LZ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-19 14:40:09 1ZdN3R-000BZR-LZ Failed to create spool file /var/spool/exim4/input//1ZdN3R-000BZR-LZ-D: Permission denied
+2015-09-19 14:40:09 1ZdN3R-000BZR-LZ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150919T163029: www.bumsinc.net/contact-form.php
+2015-09-19 16:30:29 1ZdOmD-0009Vk-O5 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-19 16:30:29 1ZdOmD-0009Vk-O5 Failed to create spool file /var/spool/exim4/input//1ZdOmD-0009Vk-O5-D: Permission denied
+2015-09-19 16:30:29 1ZdOmD-0009Vk-O5 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150924T091630: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150924T091637: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150924T091644: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150924T091718: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150924T091925: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150924T093534: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150924T094447: bumsincnet.ipage.com/agpudlos/wp-admin/themes.php
+PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 30720 bytes) in /hermes/bosnaweb05a/b2913/ipg.bumsincnet/agpudlos/wp-admin/includes/theme.php on line 52
+
+20150927T163650: www.bumsinc.net/contact-form.php
+2015-09-27 16:36:50 1ZgIgk-0004Sx-5S Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-27 16:36:50 1ZgIgk-0004Sx-5S Failed to create spool file /var/spool/exim4/input//1ZgIgk-0004Sx-5S-D: Permission denied
+2015-09-27 16:36:50 1ZgIgk-0004Sx-5S Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150929T163707: www.bumsinc.net/contact-form.php
+2015-09-29 16:37:07 1Zh1e7-0006eF-Ho Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-29 16:37:07 1Zh1e7-0006eF-Ho Failed to create spool file /var/spool/exim4/input//1Zh1e7-0006eF-Ho-D: Permission denied
+2015-09-29 16:37:07 1Zh1e7-0006eF-Ho Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151008T163443: www.bumsinc.net/contact-form.php
+2015-10-08 16:34:43 1ZkHtj-0006O9-IY Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-08 16:34:43 1ZkHtj-0006O9-IY Failed to create spool file /var/spool/exim4/input//1ZkHtj-0006O9-IY-D: Permission denied
+2015-10-08 16:34:43 1ZkHtj-0006O9-IY Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151010T163556: www.bumsinc.net/contact-form.php
+2015-10-10 16:35:56 1Zl0s0-000CHy-8V Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-10 16:35:56 1Zl0s0-000CHy-8V Failed to create spool file /var/spool/exim4/input//1Zl0s0-000CHy-8V-D: Permission denied
+2015-10-10 16:35:56 1Zl0s0-000CHy-8V Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151017T163157: www.bumsinc.net/contact-form.php
+2015-10-17 16:31:57 1ZnY8z-0006K0-Vu Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-17 16:31:57 1ZnY8z-0006K0-Vu Failed to create spool file /var/spool/exim4/input//1ZnY8z-0006K0-Vu-D: Permission denied
+2015-10-17 16:31:57 1ZnY8z-0006K0-Vu Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151023T012527: www.bumsinc.net/contact-form.php
+2015-10-23 01:25:27 1ZpUr1-0001Y4-Ol Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-23 01:25:27 1ZpUr1-0001Y4-Ol Failed to create spool file /var/spool/exim4/input//1ZpUr1-0001Y4-Ol-D: Permission denied
+2015-10-23 01:25:27 1ZpUr1-0001Y4-Ol Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151024T163245: www.bumsinc.net/contact-form.php
+2015-10-24 16:32:45 1Zq5Ub-0002hs-Ri Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-24 16:32:45 1Zq5Ub-0002hs-Ri Failed to create spool file /var/spool/exim4/input//1Zq5Ub-0002hs-Ri-D: Permission denied
+2015-10-24 16:32:45 1Zq5Ub-0002hs-Ri Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151108T163222: www.bumsinc.net/contact-form.php
+2015-11-08 16:32:22 1ZvXZW-000942-84 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-11-08 16:32:22 1ZvXZW-000942-84 Failed to create spool file /var/spool/exim4/input//1ZvXZW-000942-84-D: Permission denied
+2015-11-08 16:32:22 1ZvXZW-000942-84 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151111T163245: www.bumsinc.net/contact-form.php
+2015-11-11 16:32:45 1Zwd0X-0005Gq-B1 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-11-11 16:32:45 1Zwd0X-0005Gq-B1 Failed to create spool file /var/spool/exim4/input//1Zwd0X-0005Gq-B1-D: Permission denied
+2015-11-11 16:32:45 1Zwd0X-0005Gq-B1 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151115T163248: www.bumsinc.net/contact-form.php
+2015-11-15 16:32:48 1Zy4um-000CLo-3r Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-11-15 16:32:48 1Zy4um-000CLo-3r Failed to create spool file /var/spool/exim4/input//1Zy4um-000CLo-3r-D: Permission denied
+2015-11-15 16:32:48 1Zy4um-000CLo-3r Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151120T163856: www.bumsinc.net/contact-form.php
+2015-11-20 16:38:56 1ZztOS-0006EH-JX Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-11-20 16:38:56 1ZztOS-0006EH-JX Failed to create spool file /var/spool/exim4/input//1ZztOS-0006EH-JX-D: Permission denied
+2015-11-20 16:38:56 1ZztOS-0006EH-JX Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151123T163325: www.bumsinc.net/contact-form.php
+2015-11-23 16:33:25 1a0yjl-000B0W-0b Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-11-23 16:33:25 1a0yjl-000B0W-0b Failed to create spool file /var/spool/exim4/input//1a0yjl-000B0W-0b-D: Permission denied
+2015-11-23 16:33:25 1a0yjl-000B0W-0b Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151126T045021: bumsinc.net/contact-form.php
+2015-11-26 04:50:21 1a1tC1-0006nO-8V Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-11-26 04:50:21 1a1tC1-0006nO-8V Failed to create spool file /var/spool/exim4/input//1a1tC1-0006nO-8V-D: Permission denied
+2015-11-26 04:50:21 1a1tC1-0006nO-8V Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151202T163308: www.bumsinc.net/contact-form.php
+2015-12-02 16:33:08 1a4F1Q-0002IB-Dj Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-12-02 16:33:08 1a4F1Q-0002IB-Dj Failed to create spool file /var/spool/exim4/input//1a4F1Q-0002IB-Dj-D: Permission denied
+2015-12-02 16:33:08 1a4F1Q-0002IB-Dj Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151206T163536: www.bumsinc.net/contact-form.php
+2015-12-06 16:35:36 1a5gy0-000Axq-II Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-12-06 16:35:36 1a5gy0-000Axq-II Failed to create spool file /var/spool/exim4/input//1a5gy0-000Axq-II-D: Permission denied
+2015-12-06 16:35:36 1a5gy0-000Axq-II Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151214T163046: www.bumsinc.net/contact-form.php
+2015-12-14 16:30:46 1a8ahi-0003eM-RB Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-12-14 16:30:46 1a8ahi-0003eM-RB Failed to create spool file /var/spool/exim4/input//1a8ahi-0003eM-RB-D: Permission denied
+2015-12-14 16:30:46 1a8ahi-0003eM-RB Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151222T163025: www.bumsinc.net/contact-form.php
+2015-12-22 16:30:25 1aBUVl-0000Te-48 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-12-22 16:30:25 1aBUVl-0000Te-48 Failed to create spool file /var/spool/exim4/input//1aBUVl-0000Te-48-D: Permission denied
+2015-12-22 16:30:25 1aBUVl-0000Te-48 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151223T211701: www.bumsinc.net/contact-form.php
+2015-12-23 21:17:01 1aBvSf-0000EL-RQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-12-23 21:17:01 1aBvSf-0000EL-RQ Failed to create spool file /var/spool/exim4/input//1aBvSf-0000EL-RQ-D: Permission denied
+2015-12-23 21:17:01 1aBvSf-0000EL-RQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151230T163120: www.bumsinc.net/contact-form.php
+2015-12-30 16:31:20 1aEOL2-0001nJ-O1 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-12-30 16:31:20 1aEOL2-0001nJ-O1 Failed to create spool file /var/spool/exim4/input//1aEOL2-0001nJ-O1-D: Permission denied
+2015-12-30 16:31:20 1aEOL2-0001nJ-O1 Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160104T163233: www.bumsinc.net/contact-form.php
+2016-01-04 16:32:33 1aGCjx-0006cJ-9N Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-01-04 16:32:33 1aGCjx-0006cJ-9N Failed to create spool file /var/spool/exim4/input//1aGCjx-0006cJ-9N-D: Permission denied
+2016-01-04 16:32:33 1aGCjx-0006cJ-9N Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160108T163518: www.bumsinc.net/contact-form.php
+2016-01-08 16:35:18 1aHego-0008dy-HQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-01-08 16:35:18 1aHego-0008dy-HQ Failed to create spool file /var/spool/exim4/input//1aHego-0008dy-HQ-D: Permission denied
+2016-01-08 16:35:18 1aHego-0008dy-HQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160124T033728: www.bumsinc.net/contact-form.php
+2016-01-24 03:37:28 1aNGAq-00075k-QQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-01-24 03:37:28 1aNGAq-00075k-QQ Failed to create spool file /var/spool/exim4/input//1aNGAq-00075k-QQ-D: Permission denied
+2016-01-24 03:37:28 1aNGAq-00075k-QQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+

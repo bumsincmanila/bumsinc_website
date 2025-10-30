@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]><html class="ie lt-ie9 lt-ie8 lt-ie7 ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<html>
 <head>
 
 <meta charset="utf-8">
@@ -55,8 +60,13 @@ $(function() {
        });
      });
 </script>
+
+
 </head>
+
 <body>
+ 
+
 	<section id="hero">
 		<ul id="scene" class="scene"
 			data-friction-x="0.1"
@@ -70,11 +80,16 @@ $(function() {
 			<li class="layer" data-depth="0.10" ><div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div></li>
 			<li class="layer" data-depth="0.15"><div class="triangles"></div></li>
 			<li class="layer" data-depth="0.25"><div class="sphere" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="" alt=""></div></li>
-
+			<p></p>
+			<p></p>
+			
 			<!-- Hero -->
 			<li class="layer" data-depth="0.20"><div class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/18years.png" alt="BUMS INC"></div></li>
 			<li class="layer" data-depth="0.30">
-				<div class="hero-content" data-0="opacity: 1;" data-top-bottom="opacity: 0;"></div>
+				<div class="hero-content" data-0="opacity: 1;" data-top-bottom="opacity: 0;">
+				<!--	<h1 class-"logo">BUMSINC</h1> -->
+				<!--	<h3>Providing 12 years of Quality Service</h3>-->
+				</div>
 			</li>
 
 			<!-- Flakes -->
@@ -108,7 +123,7 @@ $(function() {
 	        	<div class="container">
 	            	<div class="row">
 	                	<div class="col-md-12 clearfix">
-				<!-- Logo would go here -->
+	                    	<!--<div class="logo pull-left"><a href="index.html"><img src="assets/img/bums_logo.png" alt="logo" width="auto" height="44" /></a></div>-->
 	                        <div id="trigger-mobile-nav"><i class="fa fa-bars"></i></div>
 	                    	<nav id="main-nav" class="main-nav pull-right clearfix mobile-nav">
 	                        	<ul class="nav">
@@ -130,14 +145,287 @@ $(function() {
             </div>
             <!-- // end header inner -->
 
-        </header>
+            <!-- begin header box -->
+     
+     
+     <!---
+      <div id="header-box" class="header-box font-white">
+
+            	<div class="header-box-inner closed no-delay">
+	            	<div class="container">
+	            		<div class="row">
+	            			<div class="col-md-5 clearfix">
+	            				<p>I’m designed by <a href="#">Steve van Dijk</a> and <a href="#">Max Bos</a> coded me. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+	            				<h3>Let's Socialize!</h3>
+	            				<p>
+				        			<a href="#" class="btn btn-icon btn-icon-white"><i class="fa fa-facebook fa-fw"></i></a>
+				        			<a href="#" class="btn btn-icon btn-icon-white"><i class="fa fa-twitter fa-fw"></i></a>
+				       				<a href="#" class="btn btn-icon btn-icon-white"><i class="fa fa-google-plus fa-fw"></i></a>
+			     					<a href="#" class="btn btn-icon btn-icon-white"><i class="fa fa-linkedin fa-fw"></i></a>
+			    					<a href="#" class="btn btn-icon btn-icon-white"><i class="fa fa-skype fa-fw"></i></a>
+				        			<a href="#" class="btn btn-icon btn-icon-white"><i class="fa fa-dribbble fa-fw"></i></a>
+				        		</p>
+
+	            			</div>
+	            			<div class="col-md-5 col-md-offset-2 clearfix">
+
+	            				
+		                		<div class="widget widget_twitter">
+		                			<h3 class="widget-title">Twitter Widget</h3>
+		                			<div class="tweet normal-font" data-twitter-username="envato" data-count="2"></div>
+		                		</div>
+
+	            			</div>
+	            		</div>
+	            	</div>
+	            	
+            		<div id="header-close" class="header-box-trigger trigger-light"><i class="fa fa-minus fa-fw"></i></div>
+            	</div>
+
+            	
+            	<div id="header-open" class="header-box-trigger no-delay"><i class="fa fa-plus fa-fw"></i></div>
+
+            </div>
+          --->
+            <!-- // end header box -->
+
+</header>
         <!-- // End Header -->
 
+        <!-- Begin Home -->
+     <!-- <section id="home" class="page-type black-bg font-white depth-type animated delayed no-opacity" data-animation="fadeIn" data-animation-delay="0s">-->
+        	<!--<div class="container">
+        		<div class="row">
+        			<div class="col-md-12 text-center">
+                    
+                    
 
+        				<!-- logo -->
+        				<!---<div class="big-logo animated delayed no-opacity" data-animation="fadeInDown" data-animation-delay="0.4s"><img src="assets/img/big-logo-flat.png" alt="" /></div>
+
+        				<!-- portfolio filter -->
+        				<!--<div id="diamond-filter-home" class="diamond-filter font-white animated delayed no-opacity" data-animation="fadeInUp" data-animation-delay="0.7s">
+        					<ul class="special-font">
+        						<li class="active"><a data-filter="*" href="#">All</a></li>
+        						<li><a data-filter="webdesign" href="#">Video Production</a></li>
+        						<li><a data-filter="illustration" href="#">Event Coverage</a></li>
+        						<li><a data-filter="icons" href="#">Events Management</a></li>
+        					
+							</ul>
+        				</div>-->
+
+        				<!-- portfolio slider 
+        				<div id="diamondslider-home" class="diamondslider nav-white animated delayed no-opacity" data-animation="fadeInUp" data-animation-delay="1.1s">
+        					<ul class="slides">
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-7_zps7edba696.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action">
+                                    
+                                    </span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-47_zps7078a2be.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-9_zpsbda74bda.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-12_zpse8a36a9c.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-11_zpsb4d21bed.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-26_zps5873d23c.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-18_zps7d246b80.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-34_zps9c4b535d.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-24_zpsc1861781.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-20_zpscf69550c.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-39_zps44f968dd.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-28_zps484e6ec7.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-22_zpsc692e142.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-41_zpseeec1ae6.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-29_zpsfc1f9322.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-13_zpsa39edb38.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-10_zps62132992.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-44_zpsa837133b.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-45_zpsb3ec18b9.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-17_zps418aadd3.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-19_zps88b5c897.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-35_zpse10760dc.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-31_zps6c66330d.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-21_zps5bd37a2a.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-40_zpsb90669d9.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-32_zpsd3c37e9a.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-23_zps1aaa04bb.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-43_zps73de7507.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-36_zpsff4d9e34.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="icons">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-42_zps881a7996.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="webdesign">
+        							<a class="item-hover ajax-nav" href="#"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-33_zpsf21cf2f7.jpg" alt="" />
+        						</li>
+        						<li class="shape diamond small" data-category="illustration">
+        							<a class="item-hover ajax-nav" href="#l"><span class="hover-title special-font"></span><span class="hover-action"></span></a>
+        							<img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-37_zpse7ea25ab.jpg" alt="" />
+        						</li>
+        					</ul>
+        				</div>-->
+
+
+
+
+        			</div>
+        		</div>
+        	</div>
+
+              <!-- Background Triangle Overlay / Special Depth Bg -->
+              
+	<div class="depth-bg">
+
+
+            	<!-- Background Image Slider -->
+                <!--<div class="owl-carousel depth-slider">
+       <div><img src="banners/homepage-bg1.jpg" alt=""  /></div>
+   
+   <div><img src="banners/homepage-bg2.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg3.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg4.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg5.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg6.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg7.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg8.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg9.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg10.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg11.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg12.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg13.jpg" alt="" /></div>
+   <div><img src="banners/homepage-bg14.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg15.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg16.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg17.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg18.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg19.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg20.jpg" alt="" /></div>
+   
+   <div><img src="banners/homepage-bg21.jpg" alt="" /></div>
+   
+   
+                   
+                
+                </div>-->
+                <!-- // end Background Image Slider -->
+
+                <!-- Background Texture for Depth Bg -->
+            	<!--<div class="depth-texture"></div>-->
+
+            	<!-- Background Overlay Image (e.g. a transparant triangle) -->
+            	<div class="depth-bg-img" style="background-image: url(demo/bg/home-bg.png);"></div>
+
+         </div>
+            <!-- // End Background Triangle Overlay / Special Depth Bg -->
+
+        </section>
         <!-- // End Home -->
 
         <!-- Begin About Us -->
-        <section id="team" class="page-type">
+               <section id="team" class="page-type">
         	<div class="container">
         		<div class="row">
                 	<div class="col-md-12 text-center">
@@ -343,6 +631,7 @@ and sense of time helped us meet our deadline of our infomercial. Big thanks!”
         <section id="services" class="page-type depth-type">
         	<div class="container">
             	<div class="row">
+            	
                 	<div class="col-md-12 text-center">
                     	<h1 class="section-title">Our Services</h1>
                     </div>
@@ -350,7 +639,14 @@ and sense of time helped us meet our deadline of our infomercial. Big thanks!”
                 <div class="row">
                 	<div class="col-md-8 col-md-offset-2 text-center">
                         <p>Business Unusual Media Solutions Inc. was formed as a comprehensive multi-disciplinary professional practice and corporation offering multimedia solutions and services such as:</p>
-                    </div>
+                   
+				   
+                                
+                                    
+                   
+                   
+                   
+				    </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-xtra-1">
@@ -435,7 +731,166 @@ many more.</p>
                         <!-- diamond slider -->
         				<div id="diamondslider-portfolio" class="diamondslider animated delayed no-opacity" data-animation="fadeInUp" data-animation-delay="0.7s">
         					<ul class="slides">
-        						<!-- Portfolio items would go here -->
+                            <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav iframe" id="single_image" href="#!portfolio-item/Senate.html"><span class="hover-title special-font">Senate 100years TVC</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/diamond_drillon_zpspah4ruod.JPG" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/buhay.html"><span class="hover-title special-font">Buhay na Buhay Teaser</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/bnb.jpg" alt="" />
+                                </li>
+                                
+                                 <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/IACAT_INFO.html"><span class="hover-title special-font">IACAT Infomercial</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/human.jpg" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="film">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Palawan.html"><span class="hover-title special-font">PALAWAN: LIKHANG YAMAN</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/palawan-likhang-yaman_zps06ef1082(1).JPG" alt="" />
+                                </li>
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/PhilHealth.html"><span class="hover-title special-font">The PhilHealth Story</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/diamond_philhealth_story_zps87cqm85m.JPG" alt="" />
+                                </li>
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/NPC_INFO.html"><span class="hover-title special-font">NPC Infomercial</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/npc_info.jpg" alt="" />
+                                </li>
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Fcf-Minerals-Areal-Survey.html"><span class="hover-title special-font">FCF AERIAL SURVEY</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/fcfareial_zps81e9abab.JPG" alt="" />
+                                </li>
+        						<li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav iframe" href="#!portfolio-item/denr-emb.html"><span class="hover-title special-font">DENR EMB AVP</span><span class="hover-action">- view -</span></a>
+        							<img src="diamond/denr-avp.jpg" alt="" />
+        						</li>
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/IACAT_ANIM.html"><span class="hover-title special-font">DOJ IACAT Animation</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/info.jpg" alt="" />
+                                </li>
+                                
+                               <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/ayda.html"><span class="hover-title special-font">AYDA Theme Launch 2022</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/ayda.jpg" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="film">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Natupad-na-Pangarap.html"><span class="hover-title special-font">Natupad na Pangarap</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/natupad-na-pangarap_zpse5be5d9d.JPG" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event-3.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/events_4_zps8ilqdkuv.JPG" alt="hosting" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/npc.html"><span class="hover-title special-font">NPC Privacy Awareness Week 2019</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/paw.jpg" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event_1.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/event_1s.webp" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event_2.html"><span class="hover-title special-font">DTI National MSME Summit 2018</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/event_2s.jpg" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event_3.html"><span class="hover-title special-font">IPO PHL Convergence 2018</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/event_3s.jpg" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event_4.html"><span class="hover-title special-font">IPO PHL Convergence 2018</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/event_4s.jpg" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event_5.html"><span class="hover-title special-font">DTI National MSME Summit 2023</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/event_5s.webp" alt="" />
+                                </li>
+                                
+                                 <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event-1.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/events_3_zpsrmasvzt5.JPG" alt="" />
+                                </li>
+                                
+                                <li class="shape diamond" data-category="film">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/heyjude.html"><span class="hover-title special-font">HEY JUDE</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/heyjude_zps619c2542.JPG" alt="" />
+                                </li>
+                               <!-- <li class="shape diamond" data-category="icons">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/photo-1.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-7_zps7edba696.jpg
+" alt="" />
+                                </li>-->
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/fcf-minerals-avp.html"><span class="hover-title special-font">FCF Minerals AVP</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/fcflogo_zpsf83d7c58.JPG" alt="" />
+                                </li>
+                                <!--<li class="shape diamond" data-category="logos">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Power-Play.html"><span class="hover-title special-font">Power Play Philippines</span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/photos%20behind%20the%20scenes/big/web/small/diamondscreenshot1_zps0715be1d.jpg" alt="" />
+                                </li>-->
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event-2.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/events_1_fmb.webp" alt="fmb-documentary" />
+                                </li>
+                                <li class="shape diamond" data-category="film">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/FCF-Minerals-Docufilm.html"><span class="hover-title special-font">FCF Minerals Docufilm</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/fcfdocufilm_zps3effc0cd.JPG" alt="" />
+                                </li>
+                                
+                               <!-- <li class="shape diamond" data-category="logos">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Asia-travel.html"><span class="hover-title special-font">Asia Travel and Tours</span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/photos%20behind%20the%20scenes/big/web/small/diamondscreenshot3_zps8703970d.jpg" alt="" />
+                                </li>
+                                <li class="shape diamond" data-category="logos">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Real-Estate.html"><span class="hover-title special-font">Real Estate Manila</span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/photos%20behind%20the%20scenes/big/web/small/diamondscreenshot5_zps9a1ae934.jpg" alt="" />
+                                </li>-->
+                                
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event-4.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/events_7_zpsdj0wzgfw.JPG" alt="" />
+                                </li>
+                                <!--<li class="shape diamond" data-category="logos">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/Racing-Boy.html"><span class="hover-title special-font">Racing Boy</span><span class="hover-action">- view -</span></a>
+                                    <img src=" http://i393.photobucket.com/albums/pp20/bumsinc/photos%20behind%20the%20scenes/big/web/small/diamondscreenshot8_zps6e353988.jpg" alt="" />
+                                </li>
+                                <li class="shape diamond" data-category="icons">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/photo-3.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-17_zps418aadd3.jpg" alt="" />
+                                </li>
+                                <li class="shape diamond" data-category="icons">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/photo-5.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-23_zps1aaa04bb.jpg" alt="" />
+                                </li>-->
+                                <li class="shape diamond" data-category="avp">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/sison.html"><span class="hover-title special-font">Sison Homes</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/sison.jpg" alt="" />
+                                </li>
+                               <!-- <li class="shape diamond" data-category="icons">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/photo-7.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="http://i393.photobucket.com/albums/pp20/bumsinc/web-images/diamond-banner-15_zpsdbcca824.jpg" alt="" />
+                                </li>-->
+                                <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/event-6.html"><span class="hover-title special-font"></span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/events_5_zpsnpc87xsx.JPG" alt="" />
+                                </li>
+                                
+                                 <li class="shape diamond" data-category="events">
+                                    <a class="item-hover ajax-nav" href="#!portfolio-item/pharma.html"><span class="hover-title special-font">Medspeak Event</span><span class="hover-action">- view -</span></a>
+                                    <img src="diamond/pharma.jpg" alt="" />
+                                </li>
+                                
+                                
         					</ul>
         				</div>
 
@@ -551,7 +1006,7 @@ many more.</p>
 
         </aside>
         <!-- // End Separator Aside -->
-        <!-- Begin Services -->
+ <!-- Begin Services -->
         <section id="about-us" class="page-type depth-type">
         	<div class="container">
             	<div class="row">
@@ -633,34 +1088,52 @@ many more.</p>
 
         </section>
         <!-- // End Services -->
+
+        
+ 
+       
+      
+       <!-- Background Overlay Image (e.g. a transparant triangle) 
+            	<div class="depth-bg-img" style="background-image: url(demo/bg/home-bg.png);"></div>
+
+         </div>
+            <!-- // End Background Triangle Overlay / Special Depth Bg -->
+
+       
+
         <!-- Begin Separator Aside -->
-        <aside id="bayanihan" class="separator-type">
-        <!-- <section id="" class=" font-white">-->
-            <div class="container text-center">
+       <aside id="bayanihan" class="separator-type">
+         <!-- <section id="" class=" font-white">-->
+ <div class="container text-center">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h1 class="section-title no-margin-bottom" style="color:white;">Bayanihan Crowd</h1>
                     	<div class="text-center" >
-                            <p style="color:white;">Bayanihan Crowd is a CSR initiative of Business Unusual Media Solutions Inc. 
-                            For many years, the company has had several outreach and gift-giving events that motivated 
-                            its founders to formalize its charity efforts into a structured program of providing for
-                            business opportunities to our less fortunate brethren. 
+                        <p style="color:white;">Bayanihan Crowd is a CSR initiative of Business Unusual Media Solutions Inc. 
+                        For many years, the company has had several outreach and gift-giving events that motivated 
+                        its founders to formalize its charity efforts into a structured program of providing for
+                         business opportunities to our less fortunate brethren. 
 
-                            We envision the platform of Bayanihan Crowd to embody the spirit of this very unique
-                            Filipino trait as we encourage and inspire the members of this group to likewise do
-                            the same in their own small ways as everyone brings to the table their individual
-                            resources and expertise to hopefully start a movement of paying positivity forward.
-                            </p>
-                            <a href="https://www.facebook.com/BayanihanCrowd/" class="btn btn-border border-white" target="_blank">JOIN US</a>
+We envision the platform of Bayanihan Crowd to embody the spirit of this very unique
+Filipino trait as we encourage and inspire the members of this group to likewise do
+the same in their own small ways as everyone brings to the table their individual
+resources and expertise to hopefully start a movement of paying positivity forward.
+</p>
+<a href="https://www.facebook.com/BayanihanCrowd/" class="btn btn-border border-white" target="_blank">JOIN US</a>
 						</div>
+
+                        
                     </div>
                 </div>
-	        </div>
+	</div>
             <!-- parallax with texture -->
             <div id="parallax-contact" class="parallax texture" style="background-image:url(interested-in-our-services/interested-in-our-services-banner.jpg);"></div>
 
         </aside>
         <!-- // End Separator Aside -->
+
+      
+
         			</div>
         		</div>
         	</div>
@@ -712,9 +1185,16 @@ Camp Hiraya is a country side property aimed to be a melting pot of learning, ex
           
                         <a href="https://vimeo.com/user12372643" class="btn btn-icon btn-icon-white animated delayed no-opacity" data-animation="fadeIn" data-animation-delay="0.5s"><i class="fa fa-vimeo-square"></i></a>
                             
-                            <a href="#" class="btn btn-icon btn-icon-white animated delayed no-opacity" data-animation="fadeIn" data-animation-delay="0.7s"><i class="fa fa-youtube"></i></a>               
+                            <a href="#" class="btn btn-icon btn-icon-white animated delayed no-opacity" data-animation="fadeIn" data-animation-delay="0.7s"><i class="fa fa-youtube"></i></a>
+                         
+                            
         					<a href="https://vimeo.com/user12372643" class="btn btn-icon btn-icon-white animated delayed no-opacity" data-animation="fadeIn" data-animation-delay="0.5s"><i class="fa fa-instagram"></i></a>
-
+        					
+        					
+        				
+                           
+                         
+                            
         				</p>
 
         				<p>ONE GLOBAL PLACE
@@ -805,5 +1285,8 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
     return false;
 });
 </script>
+
+
+
 </body>
 </html>

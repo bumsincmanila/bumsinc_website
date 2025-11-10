@@ -36,6 +36,7 @@
 
 <!-- Main Stylesheet -->
 <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="form.css"/>
 
 <!-- Modernizr v2.7.1 -->
 <script type="text/javascript" src="assets/js/modernizr-2.7.1.min.js"></script>
@@ -698,13 +699,137 @@ Camp Hiraya is a country side property aimed to be a melting pot of learning, ex
         	<div class="container">
         		<div class="row text-center">
         			<div class="col-md-12">
-        				<h1 class="section-title">Contact</h1>
+        				<h1 class="section-title">Inquiry</h1>
         			</div>
         		</div>
+                <p>Feel free to contact us using the contact form, if you have any questions about our products or services. </p>
+                <p>*required</p>
+                <form
+                    action="https://formspree.io/f/manlgdzj"
+                    class="fs-form fs-layout__2-column"
+                    target="_top"
+                    method="POST"
+                    >
+                    <div class="fs-field">
+                        <label class="fs-label" for="title">Title*</label>
+                        <select class="fs-select" id="title" name="title" required>
+                        <option value="mr">Mr</option>
+                        <option value="ms">Ms</option>
+                        <option value="mx">Mx</option>
+                        </select>
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="name">Name*</label>
+                        <input class="fs-input" id="name" name="name" required />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="email">Email*</label>
+                        <input class="fs-input" id="email" name="email" required />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="company">Company*</label>
+                        <input class="fs-input" id="company" name="company" required />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="country">Country (Optional)</label>
+                        <input class="fs-input" id="country" name="country" />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="phone-number">Phone Number (Optional)</label>
+                        <input class="fs-input" id="phone-number" name="phone-number" />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="appointment-date">When would you like to meet? (Manila time)</label>
+                        <input class="fs-input" type="datetime-local" id="appointment-date" name="appointment-date" />
+                        <p class="fs-description">⚠️ Important: Please select a time during Manila business hours (8:00 AM - 5:00 PM GMT+8). We will contact you at the Manila time you choose.</p>
+                        <p class="fs-description" id="time-confirmation" style="display: none;"></p>
+                        <script>
+                            // Dynamic timezone conversion when user selects a time
+                            const appointmentInput = document.getElementById('appointment-date');
+                            const confirmationPara = document.getElementById('time-confirmation');
+
+                            appointmentInput.addEventListener('change', function() {
+                                const selectedValue = this.value;
+                                if (!selectedValue) {
+                                    confirmationPara.style.display = 'none';
+                                    return;
+                                }
+
+                                // Parse the selected Manila time
+                                const manilaTime = new Date(selectedValue + ':00'); // Add seconds for Safari compatibility
+
+                                // Get user's timezone offset
+                                const userOffsetMinutes = new Date().getTimezoneOffset();
+                                const userOffset = -userOffsetMinutes / 60;
+
+                                // Convert Manila time to user's local time
+                                const localTime = new Date(manilaTime.getTime() + ((userOffset - 8) * 60 * 60 * 1000));
+
+                                // Format times for display
+                                const formatTime = (date) => {
+                                    return date.toLocaleString('en-US', {
+                                        year: 'numeric',
+                                        month: 'short',
+                                        day: 'numeric',
+                                        hour: '2-digit',
+                                        minute: '2-digit',
+                                        hour12: true
+                                    });
+                                };
+
+                                const manilaFormatted = formatTime(manilaTime);
+                                const localFormatted = formatTime(localTime);
+
+                                if (Math.abs(userOffset - 8) < 0.1) {
+                                    confirmationPara.textContent = `You selected: ${manilaFormatted} Manila time`;
+                                } else {
+                                    confirmationPara.textContent = `You selected: ${manilaFormatted} Manila time (which is ${localFormatted} in your local time)`;
+                                }
+
+                                confirmationPara.style.display = 'block';
+                            });
+                        </script>
+                    </div>
+                    <div class="fs-field col-span-full">
+                        <label class="fs-label" for="message">Tell us more about your project</label>
+                        <textarea
+                        class="fs-textarea"
+                        id="message"
+                        name="message"
+                        required
+                        ></textarea>
+                    </div>
+                    <div class="fs-checkbox-field col-span-full">
+                        <div class="fs-checkbox-wrapper">
+                        <input
+                            aria-describedby="dpa-consent-description"
+                            class="fs-checkbox"
+                            id="dpa-consent"
+                            name="dpa-consent"
+                            required
+                            type="checkbox"
+                            value="consent"
+                        />
+                        </div>
+                        <div>
+                        <label class="fs-label" for="dpa-consent">
+                            Declaration of consent for data processing
+                        </label>
+                        <p class="fs-description" id="dpa-consent-description">
+                            You agree that your data from the form will be collected and processed
+                            to answer your request in accordance with the Philippine Data Privacy Act.
+                            You can excerise your data rights at any time for the
+                            future by e-mail to inquiry@bumsinc.net.
+                        </p>
+                        </div>
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="fs-button-group">
+                        <button class="fs-button" type="submit">Submit</button>
+                    </div>
+                </form>
         		<div class="row">
         			<div class="col-md-5 col-sm-6">
-        				<p>Feel free to contact us using the contact form, if you have any questions about our products or services. </p>
-
         				<h3 class="top-margin-60">Let's Socialize!</h3>
         				<p class="bottom-margin-60">
                          <a href="https://www.facebook.com/bumsincorporated" class="btn btn-icon btn-icon-white animated delayed no-opacity" data-animation="fadeIn" data-animation-delay="0.3s"><i class="fa fa-facebook fa-fw"></i></a>  
@@ -717,17 +842,16 @@ Camp Hiraya is a country side property aimed to be a melting pot of learning, ex
 
         				</p>
 
-        				<p>ONE GLOBAL PLACE
-25TH STREET & 5TH AVENUE, BONIFACIO GLOBAL CITY, TAGUIG 1632
+        				<p>ONE GLOBAL PLACE 25TH STREET & 5TH AVENUE, BONIFACIO GLOBAL CITY, TAGUIG 1632 </p>
                         <br>(+632)84257997 (+632)82242027 +63927 539 0862
                          
-        				<br><a href="#">inquiry.bumsinc@gmail.com</a></p>
+        				<br><a href="#">inquiry@bumsinc.net</a></p>
 
         			</div>
         			<div class="col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-1">
-        				<h3 class="no-margin-top">Form</h3>
-        				<div class="form-success"><strong>Thank you!</strong> We have received your message.</div>
-        				<div class="contact-form"> 
+
+                        <!--
+                        <div class="contact-form"> 
 	        				<form method="post" action="contact-form.php" >
 		        				<fieldset>
 			        				<input type="text" name="name" placeholder="Name*" class="form-control form-dark" />
@@ -745,6 +869,7 @@ Camp Hiraya is a country side property aimed to be a melting pot of learning, ex
                             
                             </form>
         				</div>
+                        -->
         			</div>
         		</div>
         	</div>
@@ -754,7 +879,7 @@ Camp Hiraya is a country side property aimed to be a melting pot of learning, ex
         <!-- Begin Footer -->
         <footer id="footer" class="footer-type">
         	<div class="container text-center">
-        	<p class="copyright no-margin-bottom">&copy; 2020 BUMS INC. All rights reserved.</p>
+        	<p class="copyright no-margin-bottom">&copy; <script>document.write(new Date().getFullYear())</script> BUMS INC. All rights reserved.</p>
         	</div>
         </footer>
         <!-- // End Footer -->

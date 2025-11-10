@@ -714,10 +714,9 @@
 
 	/** about **/
 	#about-us {
-		background: url(demo/bg/about-bg.png) 
-		background-position: top; no-repeat 
+		background: url(demo/bg/about-bg.png) ;
+		background-position: top; 
 		background-repeat: no-repeat;
-		#fff;
 	}
 	#about-us .container {
 		padding-top: 30px;

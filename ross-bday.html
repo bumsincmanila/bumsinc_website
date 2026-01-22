@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ross Bday</title>
+    <title>Ross' First Birthday and Christening RSVP Form</title>
     <style>
         html,
         body {
@@ -18,7 +18,17 @@
         div[data-tf-live] {
             width: 100%;
             height: 100vh;
-            /* Force full viewport height */
+            /* Fallback for older browsers */
+            height: 100dvh;
+            /* Mobile-friendly dynamic viewport height */
+        }
+
+        /* Override Typeform's inline 500px height */
+        div[data-tf-live]>div,
+        div[data-tf-live] iframe {
+            width: 100% !important;
+            height: 100% !important;
+            border: none !important;
         }
     </style>
 </head>
